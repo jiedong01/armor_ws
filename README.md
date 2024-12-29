@@ -82,14 +82,14 @@ cv::solvePnP(object_points, img_points, camera_matrix, distort_coeffs, rvec, tve
 
 ### 使用方法
 
-'<cd ~/Downloads/armor_ws>'  根据你自己下载的路径更改
+'cd ~/Downloads/armor_ws'  根据你自己下载的路径更改
 
 
-'<colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON>'
+'colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON'
 
 
-'<source install/setup.bash>'
+'source install/setup.bash'
 
 
 
-'<ros2 run armor_detector armor_detector>'
+'ros2 run armor_detector armor_detector'
